@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingBottom="20dp"
+            android:text="@string/welcome_banner"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/welcome_message"
+            android:textSize="20dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="@string/button_banner"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/button_howto1"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/mapeventbuttons"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/button_howto2"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="@string/drawer_banner"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/drawer_howto1"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/navdrawersearchandclick"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/drawer_howto2"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="@string/information_banner"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/info_howto1"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/infowindowhowto"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/info_howto2"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="@string/event_banner"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/event_howto1"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/createevent"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/event_howto2"
+            android:textSize="18dp"
+            android:paddingBottom="40dp"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/thanks"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:paddingBottom="30dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="5dp"
+            >
+            <Button
+                android:id="@+id/gotItButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Explore Fairmont State University!"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

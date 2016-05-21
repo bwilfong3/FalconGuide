@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#860038"
+    tools:context="com.example.brandon.campus_map.BuildingFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return to map"
+            android:layout_weight = "0"
+            android:id="@+id/returnText"
+            android:textColor="@color/schoolAccent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/nameLabel"
+            android:layout_weight = "0"
+
+            android:text=" "
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:gravity="left"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/buildingScrollView">
+
+            </ScrollView>
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/listView"
+                android:layout_gravity="center_horizontal|top"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

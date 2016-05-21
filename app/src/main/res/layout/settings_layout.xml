@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to map"
+        android:id="@+id/settingsReturn"
+        android:textColor="@color/schoolAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Settings"
+        android:id="@+id/textView3"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/settingScrollView"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Check event types to be displayed:"
+                android:id="@+id/textView"
+                android:textColor="@color/schoolAccent"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alumni"
+                android:id="@+id/alumniCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/athleticsCheckBox"
+                android:checked="true"
+                android:text="Athletics"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Liberal Arts"
+                android:id="@+id/liberalArtsCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Science &amp; Technology"
+                android:id="@+id/scitechCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty &amp; Staff"
+                android:id="@+id/facultyCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falcon Center"
+                android:id="@+id/falconCenterCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graduate Studies"
+                android:id="@+id/graduateStudiesCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registrarCheckBox"
+                android:checked="true"
+                android:text="Registrar"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/businessCheckBox"
+                android:text="School of Business"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/educationCheckBox"
+                android:text=" School of Education, Health &amp; Human Performance"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School of Fine Arts"
+                android:id="@+id/fineArtsCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School of Nursing &amp; Allied Health"
+                android:id="@+id/nursingCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Special  Events"
+                android:id="@+id/specialEventsCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Life"
+                android:id="@+id/studentLifeCheckBox"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose range for event visibility:"
+                android:id="@+id/textView2"
+                android:textColor="@color/schoolAccent"/>
+
+            <Spinner
+                android:id="@+id/range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:spinnerMode="dialog" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save settings"
+                    android:id="@+id/saveSettingsButton"
+                    android:background="#0F6CB6"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:id="@+id/aboutText"
+                    android:textColor="#0F6CB6"
+                    android:textSize="15dp"
+                    android:layout_gravity="right|bottom" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
