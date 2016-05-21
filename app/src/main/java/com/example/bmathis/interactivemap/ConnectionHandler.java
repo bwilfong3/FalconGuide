@@ -44,7 +44,7 @@ public class ConnectionHandler extends Thread{
 
         try {
             Log.d("debug", "Attempting to connect...");
-            s = new Socket("", 0); // home server kept a secret
+            s = new Socket("", 0); // home server kept a secret applesauce
             Log.d("debug", "Connection Successful");
             connectionOpen = true;
 
